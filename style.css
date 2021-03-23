@@ -1,0 +1,309 @@
+/* Desktop */
+
+/*article settings*/
+article {
+	margin: 0px -8px;
+	padding: 0.75em 8px;
+}
+
+article h3 {
+	font-size: x-large;
+	margin-top: 0.5em 0.5em;
+}
+
+article h4 {
+	font-size: large;
+	margin: 0.5em 0em;
+}
+
+article p {
+	font-size: large;
+}
+
+article#intern {
+	background-color: #FDB768;
+}
+
+article.first {
+	background-color: #C0DF81;
+}
+
+article.second {
+
+	background-color: #98CA32;
+}
+
+/*body settings*/
+body {
+	background-color: #F1F8E2;
+}
+
+/*website nav bar settings*/
+nav#website_nav {
+	width: 100%;
+}
+
+nav#website_nav ul{
+	margin: 0px -8px;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #263409;
+}
+
+nav#website_nav li{
+	margin: 0px;
+	float: left;
+	font-size: large;
+}
+
+nav#website_nav li a:link, nav#website_nav li a:visited {
+	background-color: #263409;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav#website_nav li a:hover {
+	background-color: #59761E;
+	color: #dddddd;
+}
+
+/*Info nav bar settings*/
+nav#QNA_nav {
+	position: sticky;
+	width: 100%;
+	top: 0;
+}
+
+nav#QNA_nav ul{
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #59761E;
+	margin: 0px -8px;
+}
+
+nav#QNA_nav li {
+	float: left;
+	margin: 0px;
+}
+
+/* Fixes info nav menu overlap article elements for 1080p screen, 
+see info.html commented JS code for explanation*/
+a.in_page_anchor { 
+	padding-top: 76px;
+}
+
+nav#QNA_nav li a:link, nav#QNA_nav li a:visited {
+	color: #dddddd;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav#QNA_nav li a:hover {
+	background-color: #263409;
+	color: white;
+}
+
+/*table at contact settings*/
+table.contact {
+	border-spacing: 1;
+	padding: 2;
+	width: 400px;
+}
+
+table.contact, table.contact td {
+	border: 1px solid black;
+}
+
+table.contact td {
+	padding: 0.25em;
+}
+
+table.contact td:first-child {
+	width: 125px;
+}
+
+table.contact td:last-child {
+	width: 267px;
+}
+
+/*table at announcement settings*/
+table.index {
+	border-spacing: 0;
+	border-width: 0;
+	width: 100%;
+}
+
+table.index th:first-child {
+	width: 9%;
+}
+
+table.index th {
+	font-size: larger;
+}
+
+table.index tbody tr td, table.index tbody tr th {
+	padding: 2px;
+}
+
+table.index tr.heading {
+	background-color: #59761E;
+	color: white;
+}
+
+table.index tr.first {
+	background-color: #C0DF81;
+}
+
+table.index tr.second {
+	background-color: #98CA32;
+}
+
+/*table at professionalism settings*/
+table.prof {
+	width: 586px;
+	height: 368px;
+}
+
+table.prof, table.prof th, table.prof td {
+	border: 1px solid black;
+}
+
+/* Phone */
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: medium;
+		margin: 4px 0px;
+	}
+	article {
+		padding: 4px 8px;
+	}
+
+	h2, h3, th b, th, article h2, article h3 {
+		font-size: small;
+		margin: 4px 0px;
+	}
+
+	h4 {
+		font-size: x-small;
+		margin: 0.5em 0em;
+	}
+
+	p, td, article p{
+		font-size: x-small;
+		margin: 4px 0px 6px 0px;
+	}
+	
+	li, ul {
+		font-size: x-small;
+		margin: 2px 0px;
+	}
+	
+	p b, u b {
+		font-size: x-small;
+		margin: 4px 0px;
+	}
+	
+	nav#website_nav li{
+		font-size: small;
+	}
+
+	nav#website_nav li a:link, nav#website_nav li a:visited {
+		padding: 6px 10px;
+	}
+
+	nav#QNA_nav li a:link, nav#QNA_nav li a:visited {
+		padding: 2px 0.75em;
+		font-size: small;
+		text-align: left;
+	}
+	
+	table.contact {
+		width: 400px;
+	}
+	
+	table.contact td:first-child {
+		width: 150px;
+	}
+
+	table.contact td:last-child {
+		width: 250px;
+	}
+	
+	table.prof {
+		width: auto;
+		height: auto;
+	}
+}
+/* Tablet Styles */ 
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+	h1 {
+		font-size: large;
+		margin: 8px 0px;
+	}
+	article {
+		padding: 8px 8px;
+	}
+
+	h2, h3, th b, th, article h2, article h3 {
+		font-size: medium;
+		margin: 8px 0px;
+	}
+
+	h4 {
+		font-size: small;
+		margin: 0.75em 0em;
+	}
+
+	p, td, article p{
+		font-size: small;
+		margin: 6px 0px 8px 0px;
+	}
+	
+	li, ul {
+		font-size: small;
+		margin: 4px 0px;
+	}
+	
+	p b, u b {
+		font-size: small;
+		margin: 6px 0px;
+	}
+	
+	nav#website_nav li{
+		font-size: medium;
+	}
+
+	nav#website_nav li a:link, nav#website_nav li a:visited {
+		padding: 8px 12px;
+	}
+
+	nav#QNA_nav li a:link, nav#QNA_nav li a:visited {
+		padding: 2px 0.75em;
+		font-size: medium;
+		text-align: left;
+	}
+	
+	table.contact {
+		width: 300px;
+	}
+	
+	table.contact td:first-child {
+		width: 100px;
+	}
+
+	table.contact td:last-child {
+		width: 200px;
+	}
+	
+	table.prof {
+		width: auto;
+		height: auto;
+	}	
+}
